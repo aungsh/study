@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Quiz() {
   return (
-    <div className="relative isolate overflow-hidden py-24 sm:py-32 rounded-lg">
+    <div className="relative isolate overflow-hidden py-24 sm:py-32 rounded-4xl">
       {/* Animated pastel background with blur effect */}
       <div className="absolute inset-0 -z-10">
         {/* Main gradient background */}
