@@ -2,7 +2,7 @@ import { Github, Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="w-full py-12">
+    <footer className="w-full pt-12">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-center mb-8">
           <div className="text-6xl font-bold text-stone-300/30 select-none">
@@ -28,7 +28,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="relative overflow-hidden flex justify-center items-center">
+      <div className="">
         <div
           className="font-bold leading-none text-center select-none pointer-events-none whitespace-nowrap"
           style={{
