@@ -27,22 +27,13 @@ export default function Nav() {
       >
         <div className="flex w-full items-center justify-center gap-4">
           <nav className="flex gap-6 items-center">
-            <Link
-              href="#features"
-              className="hover:underline text-xl font-bold"
-            >
+            <Link href="/" className="hover:underline text-xl font-bold">
               Home
             </Link>
-            <Link
-              href="#features"
-              className="hover:underline text-xl font-bold"
-            >
+            <Link href="/faq" className="hover:underline text-xl font-bold">
               FAQ
             </Link>
-            <Link
-              href="#features"
-              className="hover:underline text-xl font-bold"
-            >
+            <Link href="/about" className="hover:underline text-xl font-bold">
               About
             </Link>
           </nav>

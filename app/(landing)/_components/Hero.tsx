@@ -5,7 +5,7 @@ import { Github } from "lucide-react";
 export default function Hero() {
   return (
     <>
-      <div className="pt-34 pb-22">
+      <div className="pb-22">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center relative">
           <div className="max-w-4xl mx-auto">
             <Button size="sm" className="mt-1">
