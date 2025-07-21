@@ -18,7 +18,7 @@ export default function Hero() {
             <div className="mt-10 flex flex-wrap justify-center gap-4">
               <Link href="https://github.com/aungsh/study" passHref>
                 <Button
-                  className="px-12 py-6 text-lg text-emerald-100 rounded-2xl"
+                  className="px-12 py-6 text-lg text-emerald-100 rounded-2xl shadow-xl"
                   size={"2xl"}
                 >
                   <Github className="" /> View on GitHub
