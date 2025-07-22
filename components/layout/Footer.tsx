@@ -28,11 +28,11 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="">
+      <div className="overflow-hidden w-full flex justify-center">
         <div
-          className="font-bold leading-none text-center select-none pointer-events-none whitespace-nowrap"
+          className="font-bold leading-none text-center select-none pointer-events-none whitespace-nowrap max-w-full"
           style={{
-            fontSize: "clamp(4rem, 25vw, 20rem)",
+            fontSize: "clamp(4rem, 40vw, 30rem)",
             background: "linear-gradient(to bottom, #262626 0%, #e7e5e4 100%)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
