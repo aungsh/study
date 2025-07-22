@@ -30,7 +30,7 @@ const Quiz = () => (
         Generate a quiz from your PDF documents.
       </p>
 
-      <Link href="https://github.com/aungsh/study-tools">
+      <Link href="/pdf-quiz">
         <Button
           className="text-lg text-emerald-100 rounded-2xl shadow-xl"
           size={"2xl"}
