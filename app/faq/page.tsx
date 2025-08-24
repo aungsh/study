@@ -39,7 +39,7 @@ export default function Faq() {
             </p>
             <p>
               However, there may be APIs used that will collect the data. Such
-              as Google's Gemini AI API.
+              as Google&apos;s Gemini AI API.
             </p>
             <p>
               As such, we recommend avoiding the upload of sensitive or personal

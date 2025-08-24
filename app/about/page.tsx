@@ -1,4 +1,4 @@
-import { Github, Heart, Users, Eye } from "lucide-react";
+import { Heart, Eye } from "lucide-react";
 
 export default function About() {
   return (
@@ -22,8 +22,8 @@ export default function About() {
 
           <p className="text-balance">
             My goal is to create awesome learning tools that make studying more
-            effective and less stressful. Whether you're cramming for exams,
-            working on assignments, or just curious about the world.
+            effective and less stressful. Whether you&apos;re cramming for
+            exams, working on assignments, or just curious about the world.
           </p>
 
           <div className="my-10 flex flex-wrap gap-4">

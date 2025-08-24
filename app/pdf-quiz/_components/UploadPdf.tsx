@@ -60,6 +60,7 @@ export function UploadPdf({ onUpload }: UploadPdfProps) {
       toast.success("PDF uploaded successfully!");
       setFiles([]);
     } catch (error) {
+      console.log(error);
       toast.error("Upload failed. Please try again.");
     }
   };
