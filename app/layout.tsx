@@ -27,15 +27,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <meta name="theme-color" content="##d1fae5" />
+      <meta name="theme-color" content="#d1fae5" />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-emerald-100`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Nav />
         <div className="w-full px-4 pt-38">
           <div className="max-w-5xl mx-auto space-y-4">{children}</div>
         </div>
-        <Toaster />
+        <Toaster richColors position="top-right" />
         <Footer />
       </body>
     </html>
