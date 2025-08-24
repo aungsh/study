@@ -3,10 +3,11 @@ import { google } from "@ai-sdk/google";
 import { streamObject } from "ai";
 export const maxDuration = 60;
 export async function POST(req: Request) {
+  console.log("Hello");
   const { files } = await req.json();
   const firstFile = files[0].data;
   const result = streamObject({
-    model: google("gemini-1.5-pro-latest"),
+    model: google("gemini-2.5-pro"),
     messages: [
       {
         role: "system",
